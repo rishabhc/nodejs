@@ -1,0 +1,118 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'concat-stream' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'concat-stream', null ]
+6 verbose cache add name=undefined spec="concat-stream" args=["concat-stream",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'concat-stream',
+7 verbose parsed url   path: 'concat-stream',
+7 verbose parsed url   href: 'concat-stream' }
+8 silly lockFile ded90988-concat-stream concat-stream
+9 verbose lock concat-stream /home/rishabh/.npm/ded90988-concat-stream.lock
+10 silly lockFile ded90988-concat-stream concat-stream
+11 silly lockFile ded90988-concat-stream concat-stream
+12 verbose addNamed [ 'concat-stream', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 48ffde68-concat-stream concat-stream@
+15 verbose lock concat-stream@ /home/rishabh/.npm/48ffde68-concat-stream.lock
+16 silly addNameRange { name: 'concat-stream', range: '*', hasData: false }
+17 verbose request where is /concat-stream
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id 383141be26dd4aba
+20 verbose url raw /concat-stream
+21 verbose url resolving [ 'https://registry.npmjs.org/', './concat-stream' ]
+22 verbose url resolved https://registry.npmjs.org/concat-stream
+23 verbose request where is https://registry.npmjs.org/concat-stream
+24 info trying registry request attempt 1 at 16:32:22
+25 verbose etag "8A7KA3CYOJD4279LGWMWC66Y9"
+26 http GET https://registry.npmjs.org/concat-stream
+27 http 304 https://registry.npmjs.org/concat-stream
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Wed, 17 Dec 2014 11:02:23 GMT',
+28 silly registry.get     server: 'Apache',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'last-modified': 'Wed, 17 Dec 2014 11:02:23 GMT',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"8A7KA3CYOJD4279LGWMWC66Y9"',
+28 silly registry.get     age: '30',
+28 silly registry.get     'x-served-by': 'cache-lax1429-LAX',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1418814143.971216,VS0,VE0',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'content-length': '0',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 verbose etag https://registry.npmjs.org/concat-stream from cache
+30 silly addNameRange number 2 { name: 'concat-stream', range: '*', hasData: true }
+31 silly addNameRange versions [ 'concat-stream',
+31 silly addNameRange   [ '0.0.1',
+31 silly addNameRange     '0.0.2',
+31 silly addNameRange     '0.0.3',
+31 silly addNameRange     '0.0.4',
+31 silly addNameRange     '0.0.5',
+31 silly addNameRange     '0.0.6',
+31 silly addNameRange     '0.0.7',
+31 silly addNameRange     '0.0.8',
+31 silly addNameRange     '0.0.9',
+31 silly addNameRange     '0.1.0',
+31 silly addNameRange     '0.1.1',
+31 silly addNameRange     '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.1.0',
+31 silly addNameRange     '1.2.0',
+31 silly addNameRange     '1.2.1',
+31 silly addNameRange     '1.3.0',
+31 silly addNameRange     '1.3.1',
+31 silly addNameRange     '1.4.0',
+31 silly addNameRange     '1.4.1',
+31 silly addNameRange     '1.4.2',
+31 silly addNameRange     '1.4.3',
+31 silly addNameRange     '1.4.4',
+31 silly addNameRange     '1.4.5',
+31 silly addNameRange     '1.4.6',
+31 silly addNameRange     '1.4.7' ] ]
+32 verbose addNamed [ 'concat-stream', '1.4.7' ]
+33 verbose addNamed [ '1.4.7', '1.4.7' ]
+34 silly lockFile 4cc1460f-concat-stream-1-4-7 concat-stream@1.4.7
+35 verbose lock concat-stream@1.4.7 /home/rishabh/.npm/4cc1460f-concat-stream-1-4-7.lock
+36 silly lockFile 8ee636cb-t-stream-concat-stream-1-4-7-tgz https://registry.npmjs.org/concat-stream/-/concat-stream-1.4.7.tgz
+37 verbose lock https://registry.npmjs.org/concat-stream/-/concat-stream-1.4.7.tgz /home/rishabh/.npm/8ee636cb-t-stream-concat-stream-1-4-7-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/concat-stream/-/concat-stream-1.4.7.tgz',
+38 verbose addRemoteTarball   '0ceaa47b87a581d2a7a782b92b81d5020c3f9925' ]
+39 info retry fetch attempt 1 at 16:32:24
+40 verbose fetch to= /tmp/npm-7673-G3Eq6rCq/registry.npmjs.org/concat-stream/-/concat-stream-1.4.7.tgz
+41 http GET https://registry.npmjs.org/concat-stream/-/concat-stream-1.4.7.tgz
+42 http 200 https://registry.npmjs.org/concat-stream/-/concat-stream-1.4.7.tgz
+43 silly lockFile 8ee636cb-t-stream-concat-stream-1-4-7-tgz https://registry.npmjs.org/concat-stream/-/concat-stream-1.4.7.tgz
+44 silly lockFile 8ee636cb-t-stream-concat-stream-1-4-7-tgz https://registry.npmjs.org/concat-stream/-/concat-stream-1.4.7.tgz
+45 silly lockFile 4cc1460f-concat-stream-1-4-7 concat-stream@1.4.7
+46 silly lockFile 4cc1460f-concat-stream-1-4-7 concat-stream@1.4.7
+47 silly lockFile 48ffde68-concat-stream concat-stream@
+48 silly lockFile 48ffde68-concat-stream concat-stream@
+49 error Error: EACCES, mkdir '/home/rishabh/.npm/concat-stream/1.4.7'
+49 error  { [Error: EACCES, mkdir '/home/rishabh/.npm/concat-stream/1.4.7']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/home/rishabh/.npm/concat-stream/1.4.7' }
+50 error Please try running this command again as root/Administrator.
+51 error System Linux 3.2.0-74-generic-pae
+52 error command "/usr/bin/node" "/usr/bin/npm" "install" "concat-stream"
+53 error cwd /home/rishabh/nodejsPractice
+54 error node -v v0.10.33
+55 error npm -v 1.4.28
+56 error path /home/rishabh/.npm/concat-stream/1.4.7
+57 error code EACCES
+58 error errno 3
+59 error stack Error: EACCES, mkdir '/home/rishabh/.npm/concat-stream/1.4.7'
+60 verbose exit [ 3, true ]

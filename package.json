@@ -1,0 +1,36 @@
+{
+  "name": "nodejsPractice",
+  "version": "1.0.0",
+  "description": "an image uploading app",
+  "main": "index.js",
+  "dependencies": {
+    "formidable": "^1.0.16",
+    "bl": "^0.9.3",
+    "request": "^2.51.0",
+    "through": "^2.3.6",
+    "through2-map": "^1.4.0",
+    "trumpet": "^1.7.0",
+    "concat-stream": "^1.4.7",
+    "duplexer": "^0.1.1",
+    "split": "^0.3.2",
+    "websocket-stream": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" &amp;&amp; exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rishabhc/nodejs"
+  },
+  "keywords": [
+    "photo"
+  ],
+  "author": "Rishabh Chhabra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishabhc/nodejs/issues"
+  },
+  "homepage": "https://github.com/rishabhc/nodejs"
+}
